@@ -5,7 +5,7 @@ import urllib
 import urllib2
 
 def get_token():
-    url = "https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=mmmwxb37b02ba2b40bdea&corpsecret=jd58FakpPbflDEa2aOFuW-yOIclnjncg412oWEATIBoCOtTMljseEE0VAR2k7mIc"
+    url = "https://qyapi.weixin.qq.com/cgi-bin/gettoken"
     req = urllib2.Request(url)
     res_data = urllib2.urlopen(req)
     res = res_data.read()
